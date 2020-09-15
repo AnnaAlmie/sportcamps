@@ -2,24 +2,24 @@
 
 @font-face {
     font-family: 'Proxima Nova';
-    src: url('../fonts/ProximaNova-Bold.eot');
-    src: local('../fonts/Proxima Nova Bold'), local('../fonts/ProximaNova-Bold'), url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Bold.woff') format('woff'), url('../fonts/ProximaNova-Bold.ttf') format('truetype');
+    src: url('./assets/fonts/ProximaNova-Bold.eot');
+    src: local('./assets/fonts/Proxima Nova Bold'), local('./assets/fonts/ProximaNova-Bold'), url('./assets/fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('./assets/fonts/ProximaNova-Bold.woff') format('woff'), url('./assets/fonts/ProximaNova-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Proxima Nova';
-    src: url('../fonts/ProximaNova-Regular.eot');
-    src: local('../fonts/Proxima Nova Regular'), local('../fonts/ProximaNova-Regular'), url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+    src: url('./assets/fonts/ProximaNova-Regular.eot');
+    src: local('./assets/fonts/Proxima Nova Regular'), local('./assets/fonts/ProximaNova-Regular'), url('./assets/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('./assets/fonts/ProximaNova-Regular.woff') format('woff'), url('./assets/fonts/ProximaNova-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Proxima Nova';
-    src: url('../fonts/ProximaNova-Extrabld.eot');
-    src: local('../fonts/Proxima Nova Extrabold'), local('ProximaNova-Extrabld'), url('../fonts/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Extrabld.woff') format('woff'), url('../fonts/ProximaNova-Extrabld.ttf') format('truetype');
+    src: url('./assets/fonts/ProximaNova-Extrabld.eot');
+    src: local('./assets/fonts/Proxima Nova Extrabold'), local('ProximaNova-Extrabld'), url('./assets/fonts/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'), url('./assets/fonts/ProximaNova-Extrabld.woff') format('woff'), url('./assets/fonts/ProximaNova-Extrabld.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
 }
@@ -29,8 +29,8 @@
 
 @font-face {
     font-family: 'DIN Condensed';
-    src: url('../fonts/DIN-Condensed.eot');
-    src: local('../fonts/DIN-Condensed'), local('../fonts/DIN-Condensed'), url('../fonts/DIN-Condensed.eot?#iefix') format('embedded-opentype'), url('../fonts/DIN-Condensed.woff') format('woff'), url('../fonts/DIN-Condensed.ttf') format('truetype');
+    src: url('./assets/fonts/DIN-Condensed.eot');
+    src: local('./assets/fonts/DIN-Condensed'), local('./assets/fonts/DIN-Condensed'), url('./assets/fonts/DIN-Condensed.eot?#iefix') format('embedded-opentype'), url('./assets/fonts/DIN-Condensed.woff') format('woff'), url('./assets/fonts/DIN-Condensed.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
