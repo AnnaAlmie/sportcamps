@@ -18,7 +18,7 @@ $(document).ready(function() {
 
 if (window.matchMedia("(max-width: 828px)").matches) {
     $(".menu__mobile__btn, .menu__link").click(function() { //Open-close mobile munu
-        $(this).toggleClass("menu__mobile__btn__active");
+        $(".menu__mobile__btn").toggleClass("menu__mobile__btn__active");
         $(".header__menu").toggleClass("open__menu");
     })
 }
@@ -85,5 +85,6 @@ function sliderCases() { //962 height
 
 // faq 
 $('.slide__block').click(function() {
-    $(this).toggleClass('slide__block__open');
+    $('.slide__block').removeClass('slide__block__open');
+    $(this).addClass('slide__block__open');
 })
