@@ -2,7 +2,7 @@ $(document).ready(function() {
     if ($('div').hasClass('page__first')) { //only for landing page
         fullPage();
         if (window.matchMedia("(min-width: 829px)").matches) { //desktop
-            sliderVerticle();
+            // sliderVerticle();
         }
     }
     if ($('div').hasClass('page__secondary')) { //only for cases page
@@ -17,7 +17,7 @@ $(document).ready(function() {
 /*-----------------------------------------*/
 
 if (window.matchMedia("(max-width: 828px)").matches) {
-    $(".menu__mobile__btn, .menu__link").click(function() { //Open-close mobile munu
+    $(".menu__mobile__btn, .menu__link").click(function() { //Open-close mobile menu
         $(".menu__mobile__btn").toggleClass("menu__mobile__btn__active");
         $(".header__menu").toggleClass("open__menu");
     })
@@ -29,7 +29,30 @@ function fullPage() {
     $('#fullpage').fullpage({
         sectionSelector: '.vertical-scrolling',
         slidesNavigation: false,
-        anchors: ['main', 'advantages', 'advantages-slider', 'сamps', 'сases', 'models', 'models-slider', 'how', 'how-slider', 'faq'],
+        anchors: [
+            'main',
+            'advantages',
+            'advantages-slider-1',
+            'advantages-slider-2',
+            'advantages-slider-3',
+            'advantages-slider-4',
+            'advantages-slider-5',
+            'сamps',
+            'сases',
+            'models',
+            'models-slider-1',
+            'models-slider-2',
+            'models-slider-3',
+            'models-slider-4',
+            'models-slider-5',
+            'how',
+            'how-slider-1',
+            'how-slider-2',
+            'how-slider-3',
+            'how-slider-4',
+            'how-slider-5',
+            'faq'
+        ],
         menu: '#menu',
         keyboardScrolling: true,
         controlArrows: true,
